@@ -179,7 +179,7 @@ public class ExcelUtils {
          * @param outputStream 输出流，用于写文件
          * @param dataList 需要导出的数据
          * @param clazz 导出数据的pojo类型
-         * @param selectListMap 下拉列表的列
+         * @param selectListMap 下拉列表的列  integer为列序号，map为对应的的选项
          * @param exportTitle 当该参数不为空则替换默认的标题
          */
         public static void exportExcel(OutputStream outputStream, List  dataList, Class clazz, Map<Integer,Map<String,String>> selectListMap,String exportTitle){
